@@ -18,7 +18,7 @@ def formatted_print(number: int, text: str):
 
     Args:
         number (int): number to be printed as prefix for text
-        text (str): tetx to be printed
+        text (str): text to be printed
     """
     space_for_digits_in_number = 6
     number_length = len(str(number))

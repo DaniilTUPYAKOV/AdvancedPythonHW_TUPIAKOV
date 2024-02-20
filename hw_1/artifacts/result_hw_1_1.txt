@@ -1,5 +1,5 @@
 TEST 1
-(.venv) C:\Users\User\Desktop\AdvancedPythonHW_TUPIAKOV\hw_1>python -m main artifacts/test_data_1.txt
+(.venv) C:\Users\User\Desktop\AdvancedPythonHW_TUPIAKOV\hw_1>python -m main_1_1 artifacts/test_data.txt
      1  [Verse 1]
      2  Have you got colour in your cheeks?
      3  Do you ever get that fear that you can't shift the tide
@@ -66,7 +66,7 @@ TEST 1
 
 
 TEST 2
-(.venv) C:\Users\User\Desktop\AdvancedPythonHW_TUPIAKOV\hw_1>python -m main artifacts/test_data_1.txt main.py
+(.venv) C:\Users\User\Desktop\AdvancedPythonHW_TUPIAKOV\hw_1>python -m main_1_1 artifacts/test_data.txt main_1_1.py
      1  [Verse 1]
      2  Have you got colour in your cheeks?
      3  Do you ever get that fear that you can't shift the tide   
@@ -180,7 +180,7 @@ TEST 2
    111      simple_nl_in_python()
 
 TEST 3
-(.venv) C:\Users\User\Desktop\AdvancedPythonHW_TUPIAKOV\hw_1>python -m main                                  
+(.venv) C:\Users\User\Desktop\AdvancedPythonHW_TUPIAKOV\hw_1>python -m main_1_1                                  
 Hello! It's me  
      1  Hello! It's me
 Have you got colour in your cheeks?
