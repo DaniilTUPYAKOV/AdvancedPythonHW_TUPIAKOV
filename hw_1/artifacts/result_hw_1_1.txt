@@ -1,0 +1,205 @@
+TEST 1
+(.venv) C:\Users\User\Desktop\AdvancedPythonHW_TUPIAKOV\hw_1>python -m main artifacts/test_data_1.txt
+     1  [Verse 1]
+     2  Have you got colour in your cheeks?
+     3  Do you ever get that fear that you can't shift the tide
+     4  That sticks around like summat in your teeth?
+     5  Are there some aces up your sleeve?
+     6  Have you no idea that you're in deep?
+     7  I've dreamt about you nearly every night this week
+     8  How many secrets can you keep?
+     9  'Cause there's this tune I found
+    10  That makes me think of you somehow an' I play it on repeat
+    11  Until I fall asleep, spillin' drinks on my settee
+    12
+    13  [Pre-Chorus]
+    14  (Do I wanna know?) If this feelin' flows both ways?
+    15  (Sad to see you go) Was sorta hopin' that you'd stay
+    16  (Baby, we both know) That the nights were mainly made
+    17  For sayin' things that you can't say tomorrow day
+    18
+    19  [Chorus]
+    20  Crawlin' back to you
+    21  Ever thought of callin' when
+    22  You've had a few?
+    23  'Cause I always do
+    24  Maybe I'm too
+    25  Busy bein' yours
+    26  To fall for somebody new
+    27  Now, I've thought it through
+    28  Crawlin' back to you
+    29
+    30  [Verse 2]
+    31  So have you got the guts?
+    32  Been wonderin' if your heart's still open
+    33  And if so, I wanna know what time it shuts
+    34  Simmer down an' pucker up, I'm sorry to interrupt
+    35  It's just I'm constantly on the cusp of tryin' to kiss you
+    36  But I don't know if you feel the same as I do
+    37  But we could be together if you wanted to
+    38
+    39  [Pre-Chorus]
+    40  (Do I wanna know?) If this feelin' flows both ways?
+    41  (Sad to see you go) Was sorta hopin' that you'd stay
+    42  (Baby, we both know) That the nights were mainly made
+    43  For sayin' things that you can't say tomorrow day
+    44
+    45  [Chorus]
+    46  Crawlin' back to you (Crawlin' back to you)
+    47  Ever thought of callin' when
+    48  You've had a few? (Had a few)
+    49  'Cause I always do ('Cause I always do)
+    50  Maybe I'm too (Maybe I'm too busy)
+    51  Busy bein' yours (Bein' yours)
+    52  To fall for somebody new
+    53  Now, I've thought it through
+    54  Crawlin' back to you
+    55
+    56  [Outro]
+    57  (Do I wanna know?) If this feelin' flows both ways?
+    58  (Sad to see you go) Was sorta hopin' that you'd stay
+    59  (Baby, we both know) That the nights were mainly made
+    60  For sayin' things that you can't say tomorrow day
+    61  (Do I wanna know?) Too busy bein' yours to fall
+    62  (Sad to see you go) Ever thought of callin', darlin'?
+    63  (Do I wanna know?) Do you want me crawlin' back to you?
+
+
+TEST 2
+(.venv) C:\Users\User\Desktop\AdvancedPythonHW_TUPIAKOV\hw_1>python -m main artifacts/test_data_1.txt main.py
+     1  [Verse 1]
+     2  Have you got colour in your cheeks?
+     3  Do you ever get that fear that you can't shift the tide   
+     4  That sticks around like summat in your teeth?
+     5  Are there some aces up your sleeve?
+     6  Have you no idea that you're in deep?
+     7  I've dreamt about you nearly every night this week        
+     8  How many secrets can you keep?
+     9  'Cause there's this tune I found
+    10  That makes me think of you somehow an' I play it on repeat
+    11  Until I fall asleep, spillin' drinks on my settee
+    12
+    13  [Pre-Chorus]
+    14  (Do I wanna know?) If this feelin' flows both ways?
+    15  (Sad to see you go) Was sorta hopin' that you'd stay
+    16  (Baby, we both know) That the nights were mainly made
+    17  For sayin' things that you can't say tomorrow day
+    18
+    19  [Chorus]
+    20  Crawlin' back to you
+    21  Ever thought of callin' when
+    22  You've had a few?
+    23  'Cause I always do
+    24  Maybe I'm too
+    25  Busy bein' yours
+    26  To fall for somebody new
+    27  Now, I've thought it through
+    28  Crawlin' back to you
+    29
+    30  [Verse 2]
+    31  So have you got the guts?
+    32  Been wonderin' if your heart's still open
+    33  And if so, I wanna know what time it shuts
+    34  Simmer down an' pucker up, I'm sorry to interrupt
+    35  It's just I'm constantly on the cusp of tryin' to kiss you
+    36  But I don't know if you feel the same as I do
+    37  But we could be together if you wanted to
+    38
+    39  [Pre-Chorus]
+    40  (Do I wanna know?) If this feelin' flows both ways?
+    41  (Sad to see you go) Was sorta hopin' that you'd stay
+    42  (Baby, we both know) That the nights were mainly made
+    43  For sayin' things that you can't say tomorrow day
+    44
+    45  [Chorus]
+    46  Crawlin' back to you (Crawlin' back to you)
+    47  Ever thought of callin' when
+    48  You've had a few? (Had a few)
+    49  'Cause I always do ('Cause I always do)
+    50  Maybe I'm too (Maybe I'm too busy)
+    51  Busy bein' yours (Bein' yours)
+    52  To fall for somebody new
+    53  Now, I've thought it through
+    54  Crawlin' back to you
+    55
+    56  [Outro]
+    57  (Do I wanna know?) If this feelin' flows both ways?
+    58  (Sad to see you go) Was sorta hopin' that you'd stay
+    59  (Baby, we both know) That the nights were mainly made
+    60  For sayin' things that you can't say tomorrow day
+    61  (Do I wanna know?) Too busy bein' yours to fall
+    62  (Sad to see you go) Ever thought of callin', darlin'?
+    63  (Do I wanna know?) Do you want me crawlin' back to you?
+    64  import sys
+    65  from collections.abc import Iterable
+    66
+    67  def process_lines(start_index: int, source: Iterable[str]):
+    68      """Processing lines in iterable line source
+    69
+    70      Args:
+    71          start_index (int): start of numeration
+    72          source (Iterable[str]): iterable source of lines (str type)
+    73      """
+    74      index = start_index
+    75      for line in source:
+    76          formatted_print(index, line)
+    77          index+=1
+    78
+    79  def formatted_print(number: int, text: str):
+    80      """ Print given text with given number prefix in specified format
+    81
+    82      Args:
+    83          number (int): number to be printed as prefix for text
+    84          text (str): tetx to be printed
+    85      """
+    86      space_for_digits_in_number = 6
+    87      number_length = len(str(number))
+    88      prefix = ""
+    89
+    90      if number_length <= space_for_digits_in_number:
+    91          prefix = "".join([" "]*(space_for_digits_in_number-number_length))
+    92
+    93      print(f'{prefix}{number}  {text}', end="")
+    94
+    95  def simple_nl_in_python():
+    96      """ Emulating `nl -b a` linux command
+    97      """
+    98      start_index = 1
+    99      source = []
+   100      if len(sys.argv) == 1:
+   101          source = sys.stdin
+   102      else:
+   103          for filename in sys.argv[1:]:
+   104              with open(filename, 'r',encoding="UTF-8") as file:
+   105                  source+=file.readlines()
+   106                  file.close()
+   107
+   108      process_lines(start_index, source)
+   109
+   110  if __name__ == '__main__':
+   111      simple_nl_in_python()
+
+TEST 3
+(.venv) C:\Users\User\Desktop\AdvancedPythonHW_TUPIAKOV\hw_1>python -m main                                  
+Hello! It's me  
+     1  Hello! It's me
+Have you got colour in your cheeks?
+     2  Have you got colour in your cheeks?
+Do you ever get that fear that you can't shift the tide
+     3  Do you ever get that fear that you can't shift the tide
+That sticks around like summat in your teeth?
+     4  That sticks around like summat in your teeth?
+Are there some aces up your sleeve?
+     5  Are there some aces up your sleeve?
+Have you no idea that you're in deep?
+     6  Have you no idea that you're in deep?
+I've dreamt about you nearly every night this week
+     7  I've dreamt about you nearly every night this week
+How many secrets can you keep?
+     8  How many secrets can you keep?
+'Cause there's this tune I found
+     9  'Cause there's this tune I found
+That makes me think of you somehow an' I play it on repeat
+    10  That makes me think of you somehow an' I play it on repeat
+Until I fall asleep, spillin' drinks on my settee
+    11  Until I fall asleep, spillin' drinks on my settee
