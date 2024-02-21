@@ -1,0 +1,23 @@
+TEST 1 (NO ARGUMENTS)
+
+(.venv) C:\Users\User\Desktop\AdvancedPythonHW_TUPIAKOV\hw_1>python -m main_1_3                                    
+[Pre-Chorus]
+(Do I wanna know?) If this feelin' flows both ways?
+(Sad to see you go) Was sorta hopin' that you'd stay
+(Baby, we both know) That the nights were mainly made
+For sayin' things that you can't say tomorrow day
+^Z
+      5      41     222
+
+TEST 2 (ONE ARGUMENT)
+
+(.venv) C:\Users\User\Desktop\AdvancedPythonHW_TUPIAKOV\hw_1>python -m main_1_3 artifacts/test_data.txt
+ 28 166 900 artifacts/test_data.txt
+
+TEST 3 (THREE ARGUMENTS)
+
+(.venv) C:\Users\User\Desktop\AdvancedPythonHW_TUPIAKOV\hw_1>python -m main_1_3 artifacts/test_data.txt main_1_2.py main_1_3.py
+  28  166  900 artifacts/test_data.txt
+  44   96 1102 main_1_2.py
+ 131  385 4749 main_1_3.py
+ 203  647 6751 total
