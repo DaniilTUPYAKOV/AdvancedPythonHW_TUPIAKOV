@@ -24,13 +24,7 @@ def simple_tail_in_python():
     """
 
     if len(sys.argv) == 1:
-        collected_lines = []
-        for line in sys.stdin:
-            collected_lines.append(line)
-            process_lines(collected_lines[-17:])
-
-            if len(collected_lines) > 17:
-                collected_lines.remove(0)
+        process_lines(sys.stdin.readlines()[-17:])
     else:
         print_name = False
         if len(sys.argv[1:]) > 1:
