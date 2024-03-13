@@ -1,18 +1,5 @@
 """ Creation of LaTeX code for table """
 
-from functools import wraps
-
-def add_latex_document_structure(func):
-    """ Decorator for adding simple necessary LaTeX project structure
-    """
-    @wraps(func)
-    def inner(*args, **kwargs):
-        start_code = "\\documentclass{article}\n\\usepackage{graphicx}\n\\begin{document}\n"
-        end_code = "\n\\end{document}"
-        return start_code + func(*args, **kwargs) + end_code
-    return inner
-
-@add_latex_document_structure
 def generate_latex_table(input_data: list[list]) -> str:
     """ Generate LaTeX code for table with given data
 
@@ -36,4 +23,22 @@ def generate_latex_table(input_data: list[list]) -> str:
         + table_end
     )
 
+    return result_line
+
+def generate_latex_image(image_path: str, caption: str, label: str):
+    """ Generates LaTeX code to include an image from the given path
+
+    Args:
+        image_path (str): The path to the image file
+
+    Returns:
+        str: A LaTeX code to include the image
+    """
+
+    result_line = ("\\begin{figure}[h!]\n"
+                   + "\\centering\n"
+                   + f"\\includegraphics{{{image_path}}}"
+                   + f"\n\\caption{{{caption}}}\n"
+                   + f"\\label{{{label}}}\n"
+                   + "\\end{figure}")
     return result_line
