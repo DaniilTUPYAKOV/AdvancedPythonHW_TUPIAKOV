@@ -1,0 +1,17 @@
+ jobs   ThreadPoolExecutor   ProcessPoolExecutor
+    1        1.938 seconds         1.963 seconds
+    2        2.006 seconds         1.106 seconds
+    3        1.883 seconds         0.937 seconds
+    4         1.88 seconds         0.714 seconds
+    5        1.912 seconds         0.762 seconds
+    6        1.869 seconds         1.226 seconds
+    7        1.874 seconds          1.27 seconds
+    8        1.896 seconds         1.428 seconds
+    9        1.921 seconds         1.301 seconds
+   10        1.914 seconds         1.411 seconds
+   11        1.875 seconds         1.376 seconds
+   12        1.863 seconds         1.509 seconds
+   13        1.921 seconds         1.514 seconds
+   14        1.923 seconds         1.549 seconds
+   15        1.937 seconds         1.586 seconds
+   16        1.935 seconds         1.666 seconds

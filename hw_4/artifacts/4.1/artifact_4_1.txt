@@ -1,0 +1,3 @@
+Synchronous done in 467.3166289329529 seconds
+Threading done in 474.54599475860596 seconds
+Multiprocessing done in 480.0802414417267 seconds
