@@ -1,0 +1,20 @@
+(.venv) C:\Users\User\Desktop\AdvancedPythonHW_TUPIAKOV>c:/Users/User/Desktop/AdvancedPythonHW_TUPIAKOV/.venv/Scripts/python.exe c:/Users/User/Desktop/AdvancedPythonHW_TUPIAKOV/hw_4/main_4_3.py
+Enter a message: With the lights out, it's less dangerous
+Message 'With the lights out, it's less dangerous' was entered at 11:55:42
+Encoded message: 'jvgu gur yvtugf bhg, vg'f yrff qnatrebhf' received at 11:55:42       
+Enter a message: Here we are now, entertain us
+Message 'Here we are now, entertain us' was entered at 11:55:42
+Encoded message: 'urer jr ner abj, ragregnva hf' received at 11:55:47
+Enter a message: I feel stupid and contagious
+Message 'I feel stupid and contagious' was entered at 11:55:47
+Encoded message: 'v srry fghcvq naq pbagntvbhf' received at 11:55:52
+Enter a message: Here we are now, entertain us
+Message 'Here we are now, entertain us' was entered at 11:55:52
+Encoded message: 'urer jr ner abj, ragregnva hf' received at 11:55:57
+Enter a message: A mulatto, an albino
+Message 'A mulatto, an albino' was entered at 11:55:57
+Encoded message: 'n zhynggb, na nyovab' received at 11:56:02
+Enter a message: A mosquito, my libido
+Message 'A mosquito, my libido' was entered at 11:56:02
+Encoded message: 'n zbfdhvgb, zl yvovqb' received at 11:56:07
+Enter a message: Applications stopped
