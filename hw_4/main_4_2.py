@@ -5,11 +5,13 @@ from multiprocessing import cpu_count
 
 
 class TimeComparator:
+    """Class for pretty formatting compared data"""
 
     _runner_names: set[str] = set()
     _data: dict[int, dict[str, int]] = {}
 
     def add_timestamp(self, runner_name: str, runner_settings: int, result_time: int):
+        """Add executir name, number of jobs and result time"""
         if runner_settings not in self._data:
             self._data[runner_settings] = {}
         self._data[runner_settings][runner_name] = result_time
@@ -38,12 +40,13 @@ TIME_COMPARATOR = TimeComparator()
 
 
 def save_log(log: str, filename: str):
+    """Save logs to filensme file"""
     with open(filename, "a+", encoding="utf-8") as file:
         file.write(log + "\n")
 
 
 def integrate_thread(f, a, b, *, n_jobs=1, n_iter=10000000):
-
+    """Integrate function divaded by n_jobs (Treads)"""
     step = (b - a) / n_iter
     indices = [
         (i * (n_iter // n_jobs), (i + 1) * (n_iter // n_jobs)) for i in range(n_jobs)
@@ -66,6 +69,7 @@ def integrate_thread(f, a, b, *, n_jobs=1, n_iter=10000000):
 
 
 def integrate_range_process(task: tuple):
+    """Internal function for integrating range"""
     start = task[0]
     end = task[1]
     main_start = task[2]
@@ -78,6 +82,7 @@ def integrate_range_process(task: tuple):
 
 
 def integrate_process(f, a, b, *, n_jobs=1, n_iter=10000000):
+    """ Integrate function devided in n_jobs (Processes)"""
 
     with concurrent.futures.ProcessPoolExecutor(max_workers=n_jobs) as executor:
         step = (b - a) / n_iter
@@ -92,6 +97,7 @@ def integrate_process(f, a, b, *, n_jobs=1, n_iter=10000000):
 
 
 def run_integration(f, a, b, executor_class, n_jobs):
+    """Run defined integration variation and save result logs"""
 
     save_log(
         f"Starting integration with {executor_class.__name__} and n_jobs={n_jobs}, start time = {time.time()}",
