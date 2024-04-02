@@ -1,20 +1,38 @@
-(.venv) C:\Users\User\Desktop\AdvancedPythonHW_TUPIAKOV>c:/Users/User/Desktop/AdvancedPythonHW_TUPIAKOV/.venv/Scripts/python.exe c:/Users/User/Desktop/AdvancedPythonHW_TUPIAKOV/hw_4/main_4_3.py
+(.venv) C:\Users\User\Desktop\AdvancedPythonHW_TUPIAKOV>c:/Users/User/Desktop/AdvancedPythonHW_TUPIAKOV/.venv/Scripts/python.exe c:/Users/User/Desktop/AdvancedPythonHW_TUPIAKOV/hw_4/main_4_3.py   
+Enter a message: Hello!
+Message 'Hello!' was entered at 17:06:45      
+Encoded message: 'uryyb!' received at 17:06:45
+Enter a message: HEy!
+Message 'HEy!' was entered at 17:06:51      
+Encoded message: 'url!' received at 17:06:51
+Enter a message: Hay!
+Message 'Hay!' was entered at 17:06:53
+Encoded message: 'unl!' received at 17:06:56
+Enter a message: hehehe
+Message 'hehehe' was entered at 17:07:18      
+Encoded message: 'ururur' received at 17:07:18
+Enter a message: hehe
+Message 'hehe' was entered at 17:07:19
+Enter a message: he
+Message 'he' was entered at 17:07:20
+Encoded message: 'urur' received at 17:07:23
+Encoded message: 'ur' received at 17:07:28
 Enter a message: With the lights out, it's less dangerous
-Message 'With the lights out, it's less dangerous' was entered at 11:55:42
-Encoded message: 'jvgu gur yvtugf bhg, vg'f yrff qnatrebhf' received at 11:55:42       
+Message 'With the lights out, it's less dangerous' was entered at 17:07:30
 Enter a message: Here we are now, entertain us
-Message 'Here we are now, entertain us' was entered at 11:55:42
-Encoded message: 'urer jr ner abj, ragregnva hf' received at 11:55:47
+Message 'Here we are now, entertain us' was entered at 17:07:30
 Enter a message: I feel stupid and contagious
-Message 'I feel stupid and contagious' was entered at 11:55:47
-Encoded message: 'v srry fghcvq naq pbagntvbhf' received at 11:55:52
+Message 'I feel stupid and contagious' was entered at 17:07:30 
 Enter a message: Here we are now, entertain us
-Message 'Here we are now, entertain us' was entered at 11:55:52
-Encoded message: 'urer jr ner abj, ragregnva hf' received at 11:55:57
+Message 'Here we are now, entertain us' was entered at 17:07:30
 Enter a message: A mulatto, an albino
-Message 'A mulatto, an albino' was entered at 11:55:57
-Encoded message: 'n zhynggb, na nyovab' received at 11:56:02
+Message 'A mulatto, an albino' was entered at 17:07:30
 Enter a message: A mosquito, my libido
-Message 'A mosquito, my libido' was entered at 11:56:02
-Encoded message: 'n zbfdhvgb, zl yvovqb' received at 11:56:07
+Message 'A mosquito, my libido' was entered at 17:07:32
+Encoded message: 'jvgu gur yvtugf bhg, vg'f yrff qnatrebhf' received at 17:07:33
+Encoded message: 'urer jr ner abj, ragregnva hf' received at 17:07:38
+Encoded message: 'v srry fghcvq naq pbagntvbhf' received at 17:07:43
+Encoded message: 'urer jr ner abj, ragregnva hf' received at 17:07:48
+Encoded message: 'n zhynggb, na nyovab' received at 17:07:53
+Encoded message: 'n zbfdhvgb, zl yvovqb' received at 17:07:58
 Enter a message: Applications stopped
